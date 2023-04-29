@@ -1,0 +1,85 @@
+.card {
+    display: flex;
+    width: 300px;
+    height: 310px;
+    flex-direction: column;
+    box-shadow: 0 0 8px 1px teal;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.card:hover {
+transform: translate(5px,10px);
+transition: 0.4s ease-in;
+box-shadow: 0 0 8px 3px teal;
+}
+.inputs {
+    display: flex;
+    width: 300px;
+    height: 310px;
+    flex-direction: column;
+    box-shadow: 0 0 8px 1px teal;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 15px;   
+}
+.containerCard {
+    display: flex;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgUser {
+    width: 150px;
+}
+.card h2 {
+    margin: 0;
+}
+
+.card p {
+    text-align: left;
+    margin: 0;
+}
+
+.btns {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card button {
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.delete {
+    background: brown;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 6px 1px brown;
+    cursor: pointer;
+}
+.delete:hover {
+    background: rgb(206, 54, 54);
+    transform: scale(1.02);
+}
+
+.edit {
+    background: teal;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 6px 1px teal;
+    cursor: pointer;
+}
+.edit:hover {
+    background: rgb(3, 159, 159);
+    transform: scale(1.02);
+}

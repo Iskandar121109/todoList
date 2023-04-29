@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
+
+.todolist {
+    padding: 50px;
+    width: 1000px;
+    border: solid 1px black;
+    margin: 0px auto;
+    background: rgb(24, 19, 19);
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 0 0 6px 1px #fff;
+}
+
+.animate {
+    position: absolute;
+    left: 0px;
+    border-radius: 15px;
+    background: rgb(24, 19, 19);
+    width: 0px;
+    height: 60px;
+    transition: 1s linear;
+    opacity: 0;
+}
+
+.animateActive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    opacity: 1;
+    position: absolute;
+    color: #fff;
+    left: 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 1px #fff;
+    background: url(./background.jpg);
+    background-size: cover;
+    background-origin: border-box;
+    height: 61px;
+    transition: 1s linear;
+    transition: 1s linear;
+    width: 87%;
+}
+
+.inputs {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+
+.inputs input {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px 15px;
+    height: 50px;
+    width: 80%;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 15px;
+}
+
+.input {
+    padding: 5px 15px;
+    height: 40px;
+    width: 60%;
+    outline: none;
+    font-size: 2rem;
+    border-radius: 15px;
+
+}
+
+.btn {
+    width: 165px;
+    height: 50px;
+    transform: translateX(-15px);
+    border-radius: 15px;
+    background: rgb(24, 19, 19);
+    color: #fff;
+    font-size: 1.5rem;
+    box-shadow: 0 0 6px 1px white;
+    align-self: flex-end;
+}
+
+.btnEdit {
+    width: 20%;
+    height: 53px;
+    transform: translate(-20px, -2px);
+    border-radius: 0px 15px 15px 0px;
+    background: rgb(24, 19, 19);
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.IoIosCloseCircle {
+    color: red;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.IoIosCloseCircle:hover {
+    color: rgb(170, 34, 34);
+    transform: scale(1.04) translateY(-2px);
+}
+
+.todo {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.FaEdit {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.FaEdit:hover {
+    transform: scale(1.04) translateY(-2px);
+    color: bisque;
+}
+
+.ul {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    margin: 5px 0 0 0;
+}
+
+.ul li {
+    font-size: 2.5rem;
+    display: flex;
+    gap: 20px;
+}
+
+.showDateTime {
+    text-decoration: line-through;
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+}
+
+.hideDetil {
+    display: none;
+}
+
+.showDetil {
+    display: block;
+    font-size: 24px;
+    text-align: justify;
+    width: 940px;
+}
+.FaRegCircle {
+    font-size: 30px;
+    cursor: pointer;
+}
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    width: 940px;
+}

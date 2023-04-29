@@ -1,0 +1,36 @@
+.listCards {
+    display: flex;
+    margin: 20px 0 20px 0;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+.btns {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.btns button{
+width: 150px;
+height: 40px;
+border: 1px solid teal;
+box-shadow: 0 0 5px 0 teal;
+cursor: pointer;
+border-radius: 10px;
+background: transparent;
+}
+.btns button:hover {
+    box-shadow: 0 0 5px 2px teal;
+    transform: scale(1.01);
+}
+.btns button:active {
+    transform: scale(1.02);
+}
+.inputs {
+    width: 100vw;
+    padding: 5px 15px;
+    display: flex;
+    gap: 10px;
+}
